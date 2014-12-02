@@ -12,5 +12,5 @@ def setup_package():
     cursor.execute('CREATE DATABASE gittut;')
  
 def teardown_package():
-    cursor = connection.cursor()
-    cursor.execute('DROP DATABASE gittut;')
+    # cursor = connection.cursor()
+    # cursor.execute('DROP DATABASE gittut;')
